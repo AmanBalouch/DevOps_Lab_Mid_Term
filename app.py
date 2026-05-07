@@ -10,7 +10,7 @@
 # =========================================================
 
 from fastapi import FastAPI 
-import joblib
+import joblib 
 import numpy as np
 import json
 

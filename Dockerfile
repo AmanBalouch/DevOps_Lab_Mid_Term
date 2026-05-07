@@ -13,7 +13,7 @@ COPY config.json .
 COPY dataset/ ./dataset/
 
 # Training step - har build par chalega
-RUN python train.py
+RUN python train.py && ls -la && cat metrics.json
 
 EXPOSE 8000
 
